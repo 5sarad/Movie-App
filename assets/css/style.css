@@ -81,6 +81,7 @@ margin-bottom: 15px;
 }
 
 .overlay-wrapper{
+ 
     background-color: rgba(0, 0, 0, 0.8);
     position: fixed;
     top: 0;
@@ -94,6 +95,7 @@ margin-bottom: 15px;
 }
 
 .overlay-inner{
+   
     max-width: 800px;
     width: 100%;
     width: 70vw;
@@ -141,4 +143,8 @@ color: rgba(0, 0, 0, 0.8);
     line-height: 1.6;
     margin-bottom: 30px;
     color: rgba(0, 0, 0, 0.8);
+}
+
+#display{
+    display: none;
 }
