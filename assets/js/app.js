@@ -27,19 +27,9 @@ class MovieApp {
             const apiEndPoint = `http://www.omdbapi.com/?t=${searchQuery}&apikey=45112140`;
             const response = await fetch(apiEndPoint);
             const result = await response.json();
-            if (result) {
-                this.resultMovie = new Movie(
-                    result.Title,
-                    result.Year,
-                    result.Released,
-                    result.Genre,
-                    result.Director,
-                    result.Writer,
-                    result.Plot,
-                    result.Poster
-                );
-                console.log(this.resultMovie);
-            }
+           
+                console.log(result);
+
         }
     }
 
